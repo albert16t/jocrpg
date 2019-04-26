@@ -38,7 +38,8 @@ rooms = {
               
                 },
                 
-            'Garden' : { 'north' : 'Dining Room' }
+            'Garden' : { 'north' : 'Dining Room' },
+	'garage':{'south':'Dining Room'}
          }
 #start the player in the Hall
 currentRoom = 'Hall'
