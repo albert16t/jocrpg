@@ -40,11 +40,21 @@ rooms = {
                 
             'Garden' : { 'north' : 'Dining Room' },
 <<<<<<< HEAD
+<<<<<<< HEAD
 	'garage':{'south':'Dining Room'}
 =======
 
             'Swimmingpool' : { 'north' : 'Garden' }
 >>>>>>> 0d9fcf5fd43ed065de3417df489163361d8918e4
+=======
+
+            'Bathroom' : {'east' : 'Dining Room'
+                  'item' : 'monster',
+                  'north' : 'Garden'
+
+            }
+
+>>>>>>> db55786cc1555d60dfac7ebc20dc2e87bb5df698
          }
 #start the player in the Hall
 currentRoom = 'Hall'
